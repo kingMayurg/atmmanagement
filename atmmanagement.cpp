@@ -68,7 +68,7 @@ int main() {
     cout<<"====== Welcome to ATM ======\n";
     cout<<"Enter your name: ";
     getline(cin, name);
-    cout<<"Set your 4-digit PIN: ";
+    cout<<"Set your PIN: ";
     cin>>pin;
     ATM userAccount(name, pin, 1000.0);
     int enteredpin;
